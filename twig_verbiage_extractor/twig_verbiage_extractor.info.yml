@@ -1,0 +1,7 @@
+name: 'Twig Verbiage Extractor'
+type: module
+description: 'Extracts static text and variables from Twig templates and maps them to digital_sites API values. Exports as CSV.'
+core_version_requirement: ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:system

@@ -1,0 +1,4 @@
+administer twig verbiage extractor:
+  title: 'Administer Twig Verbiage Extractor'
+  description: 'Access and run the Twig Verbiage Extractor tool.'
+  restrict access: true

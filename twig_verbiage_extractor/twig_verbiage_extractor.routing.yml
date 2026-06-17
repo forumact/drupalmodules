@@ -1,0 +1,15 @@
+twig_verbiage_extractor.config_form:
+  path: '/admin/config/twig-verbiage'
+  defaults:
+    _form: '\Drupal\twig_verbiage_extractor\Form\ExtractorForm'
+    _title: 'Twig Verbiage Extractor'
+  requirements:
+    _permission: 'administer twig verbiage extractor'
+
+twig_verbiage_extractor.download:
+  path: '/admin/config/twig-verbiage/download'
+  defaults:
+    _controller: '\Drupal\twig_verbiage_extractor\Controller\DownloadController::download'
+    _title: 'Download CSV'
+  requirements:
+    _permission: 'administer twig verbiage extractor'

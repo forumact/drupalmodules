@@ -1,0 +1,6 @@
+twig_verbiage_extractor.config_form:
+  title: 'Twig Verbiage Extractor'
+  description: 'Extract and map twig template variables to digital_sites API values.'
+  parent: system.admin_config
+  route_name: twig_verbiage_extractor.config_form
+  weight: 100
